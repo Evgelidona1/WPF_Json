@@ -1,0 +1,15 @@
+﻿<Window x:Class="NEW_STATHAM.ModalChoice"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NEW_STATHAM"
+        mc:Ignorable="d"
+        Title="ModalChoice" Height="200" Width="400">
+    <Grid>
+        <Button x:Name="reduct" IsDefault="True" Content="Отредактировать" HorizontalAlignment="Left" Margin="56,124,0,0" VerticalAlignment="Top" Click="reduct_Click"/>
+        <Button x:Name="opros" IsCancel="True" Content="Пройти опрос" HorizontalAlignment="Left" Margin="263,124,0,0" VerticalAlignment="Top" Click="opros_Click"/>
+        <Label Content="Что бы вы хотели сделать?" HorizontalAlignment="Center" Margin="0,44,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
